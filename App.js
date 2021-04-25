@@ -5,6 +5,7 @@ import QuizQuestion from './src/screens/Quiz/QuizQuestion';
 import DemoScreen from './src/screens/Quiz/DemoScreen';
 import NewDemo from './src/screens/NewDemo';
 import Demo2 from './src/screens/Demo2';
+import Demo3 from './src/screens/Demo3';
 
 export default class App extends React.Component {
   static navigationOptions = {
@@ -18,7 +19,7 @@ export default class App extends React.Component {
 
 const AppStackNavigaor = createStackNavigator(
   {
-    Demo2: Demo2,
+    Demo3: Demo3,
   },
 
   {
